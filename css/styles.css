@@ -1,0 +1,198 @@
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+/* navigation Bar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Download Bottons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  max-width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  /* This property: transform: rotate(45deg); rotates the <img /> to a deg.*/
+  /* position: absolute; makes it that it positioned relative to the closest positioned ancestor or placed realtive to the initial containing block.
+    then the regular html flow follows as it is not a perant element. */
+}
+
+/* features section */
+#features {
+  position: relative;
+  /* z-index: 1; is not neccessary because the regular html flow follows as it is not a child element of title-image or the block that contains it.*/
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* class for button icons */
+.feature-box {
+  padding: 5%;
+}
+
+.check-circle {
+  font-size: 5em;
+  color: rgb(214, 122, 127);
+}
+
+.check-circle:hover {
+  color: #ff4c68;
+}
+
+.bullseye {
+  font-size: 5em;
+  color: rgb(214, 122, 127);
+}
+
+.bullseye:hover {
+  color: #ff4c68;
+}
+
+.heart {
+  font-size: 5em;
+  color: rgb(214, 122, 127);
+}
+
+.heart:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+/* testimonials image */
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  /* makes img smaller & circular */
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#boton {
+    border-width: 0;
+    background-color: transparent;
+}
+
+/* press section */
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+.pricing-btn {
+  width: 80%;
+}
+
+.silver-font {
+  color: #c0c0c0;
+}
+
+.card {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.cta-h3 {
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ffffff;
+  color: #c0c0c0;
+}
+
+.footer-link {
+  border-radius: 100%;
+  margin: .5%;
+}
+
+h1, h2 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /* line-height: no need to specify type*/
+}
+
+/*
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+*/
+
+body {
+    font-family: "Montserrat";
+}
+
+

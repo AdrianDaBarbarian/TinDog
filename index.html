@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TinDog</title>
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f9b9e25dde.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <section id="title">
+
+        <div class="container-fluid align-items-center">
+
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand col-6" href="#">tindog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <h1>Meet new and interesting dogs nearby.</h1>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                    <!-- Ussing a custom class like download-button, makes it easier to align "custemize" grids cause it's not follow bootstrap processing -->
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+                    <!--<i class="fab fa-apple"></i>- you can also use <span></span> for fontawesomes  -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- This property: style="transform: rotate(45deg);" rotates the <img /> to a deg. -->
+                    <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4 feature-box">
+                    <button type="button" class="btn btn-link btn-lg check-circle"><i class="fas fa-check-circle"></i> </button>
+                    <h3>Easy to use.</h3>
+                    <p>So easy to use, even your dog could do it.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <button type="button" class="btn btn-link btn-lg bullseye"><i class="fas fa-bullseye"></i> </button>
+                    <h3>Elite Clientele</h3>
+                    <p>We have all the dogs, the greatest dogs.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <button type="button" class="btn btn-link btn-lg heart"><i class="fas fa-heart"></i> </button>
+                    <h3>Guaranteed to work.</h3>
+                    <p>Find the love of your dog's life or your money back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+
+        <div id="testimonial-carousel" class="carousel carousel-dark slide" data-bs-ride="false">
+
+            <!-- Unique id, id="testimonial-carousel"  THe class for BS, class="carousel carousel-dark slide"   This means it does not auto play, data-bs-ride="false" -->
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                    <img class="testimonials-img" src="images/dog-img.jpg" alt="dog-profile">
+                    <em>Pebbles, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+                    <img class="testimonials-img" src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+            </div>
+            <!-- You can use role="button" to make <a></a> a button -->
+            <button class="carousel-control-prev" type="button" id="boton" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" id="boton" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+
+
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p class="silver-font">Simple and affordable price plans for you and your dog.</p>
+
+        <div class="row text-center pricing-box">
+
+
+            <div class="col-lg-4 col-md-6 pricing-colum">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Chihuahua</h3>
+                    </div>
+                    <div cladd="card-body">
+                        <h2>Free</h2>
+                        <p class="silver-font">5 Matches Per Day</p>
+                        <p class="silver-font">10 Messages Per Day</p>
+                        <p class="silver-font">Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark pricing-btn">Sign Up</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 pricing-colum">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Labrador</h3>
+                    </div>
+                    <div cladd="card-body">
+                        <h2>$49 / mo</h2>
+                        <p class="silver-font">Unlimited Matches</p>
+                        <p class="silver-font">Unlimited Messages</p>
+                        <p class="silver-font">Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-dark pricing-btn">Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 pricing-colum">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mastiff</h3>
+                    </div>
+                    <div cladd="card-body">
+                        <h2>$99 / mo</h2>
+                        <p class="silver-font">Pirority Listing</p>
+                        <p class="silver-font">Unlimited Matches</p>
+                        <p class="silver-font">Unlimited Messages</p>
+                        <p class="silver-font">Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-dark pricing-btn">Sign Up</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+
+        <div class="container-fluid align-items-center">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                    <!-- Ussing a custom class like download-button, makes it easier to align "custemize" grids cause it's not follow bootstrap processing -->
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+                    <!--<i class="fab fa-apple"></i>- you can also use <span></span> for fontawesomes  -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <div class="bottom-container">
+            <a class="btn btn-outline-dark btn-sm footer-link" href="https://www.linkedin.com/in/adrian-tinoco-951310106/" role="button"><i class="fab fa-linkedin"></i></a>
+            <a class="btn btn-outline-dark btn-sm footer-link" href="https://twitter.com/barbarianadrian" role="button"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-dark btn-sm footer-link" href="https://github.com/AdrianDaBarbarian" role="button"><i class="fab fa-github"></i></a>
+            <a class="btn btn-outline-dark btn-sm footer-link" href="mailto:adrian.95tinoco@gmail.com" role="button"><span><i class="fas fa-envelope"></i></span></a>
+        </div>
+
+        <p>© Copyright 2018 TinDog</p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+<!-- bootstrap
+
+
+-->
+<!-- Bootstrap container
+
+  syntax:
+          <div class="container" style="background-color: red">blah blah blah.</div>
+          *encapsolates things and remains same size relative to changes in the screen size.
+
+          <div class="container-fluid" style="background-color: yellow">blah blah blah.</div>
+          *container-fluid - adapts to changes in the screen size.
+
+
+
+
+
+
+
+
+
+ -->
+<!-- bootstrap Bottons & fontawesome.com
+
+         *fontawesome.com - use to get over 900 icons, free for generall use, open source.
+            syntax:
+            CDN: <script src="https://kit.fontawesome.com/f9b9e25dde.js" crossorigin="anonymous"></script>
+           <i class="fab fa-apple"></i>
+
+       syntax:
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+
+
+ -->
+<!-- carousel
+
+
+
+
+
+
+
+
+
+
+
+ -->
+<!--    CSS Z-index
+
+        * Default Z-index is 0 and follows the html stacking order.
+        * Z-index only works if the the elements are positioned and not static.
+        * if container or div that contains the elements you want to position; the container or div must be positioned in the styles.css
+        * elements you with to position with z-index must be positioned, otherwise it won't work.
+
+        *  static
+        The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value.
+        *  relative
+        The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.
+        This value creates a new stacking context when the value of z-index is not auto. Its effect on table-*-group, table-row, table-column, table-cell, and table-caption elements is undefined.
+        *  absolute
+        The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.
+        This value creates a new stacking context when the value of z-index is not auto. The margins of absolutely positioned boxes do not collapse with other margins.
+        *  fixed
+        The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a transform, perspective, or filter property set to something other than none (see the CSS Transforms Spec), in which
+        case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.) Its final position is determined by the values of top, right, bottom, and left.
+        This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.
+        *  sticky
+        The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.
+        This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when overflow is hidden, scroll, auto, or overlay), even if that ancestor isn't the nearest actually scrolling ancestor. This effectively inhibits any "sticky" behavior (see the GitHub issue on W3C CSSWG).
+
+
+        helpful link -> https://developer.mozilla.org/en-US/docs/Web/CSS/position#values
+
+
+
+ -->
+<!--    CSS mobile styling
+    Refractoring- Don't repeat yourself; in other words try to condince the amout of styling, coding.
+    You want the leaast number of instances of classes, properties etc; you can use classes or stacking selectors. .
+
+
+
+
+
+
+
+
+
+
+ -->
+<!--   Media Query Breakpoints
+
+      @media <type> <feature>
+
+              example: @media print {
+
+                        h1 {
+                            color: red;
+                        }
+                        }
+
+                  @media says it's a media query.
+                  type indicates what, the scrren, print etc.
+                  feature describes the action
+
+                example:
+                html   <h1>Hello World</h1>
+
+                css   h1 { font-size: 30px;}
+
+                     @media (min-width: 900px) {
+
+                              h1 {
+                                  font-size: 60px;
+                              }
+                              }
+                * this says that once the condition of in the media query (condition) {this code} becomes true and activates.
+                * so after the screens width is 900px or greater the font size is 60 and over-rides the 30px
+
+         example:
+                html   <h1>Hello World</h1>
+
+                css   h1 { font-size: 30px;}
+
+                     @media (min-width: 900px) and (max-width: 1000px) {
+
+                              h1 {
+                                  font-size: 60px;
+                              }
+                              }
+              * this says that the 60px font is only activated when the screen width is between 900px and 1000px.
+
+          * browsers size are changeable
+          * devices are fixed leagnths
+          * veiwport - the size of the screen that your website is being displayed from.
+
+ -->
+<!--    CSS Combining Slectors
+    Example: div .container-fluid
+                    h1 #id
+                // parent child, hierarchy read from right to left.
+
+        .container-fluid h1 {color: red;}
+
+    element .class vs element.class
+
+*When you're combining code together with no spaces,
+
+all of the selectors have to be within the same HTML element.
+
+So, you could say, an h1 that has a class of container and also a class of title should have this
+
+
+
+
+
+
+ -->
+
+<!--   Web design Schooling - Color Theory
+    *Diffrent colors have diffrent means that they typically influence how your conent is interpreted by the prospective viwer of webpage.
+
+    *Refer to WebDev Links Section * for reasources.
+
+    
+                               Typography
+
+    Serif all inspired by having feet at the bottom sides
+
+    sans-serif come off as sensible and more novel, ussually start ups use this
+
+    Use fonts that are distinguishable between similar charactors like O and 0.
+
+    Mood, time era, weight and contrast of fonts
+    
+
+                            Manage Attention with effective User Interface
+    create hierarchy, by using color and contrast; size, bigger conent ussually draws attention before smaller content;
+    
+    Layout, by using layout to draw attention to diffrent topics, subjects related in diffrent areas, shape the layout by size;
+
+    Alignment, keep in mind the position of conent relatice to eachother, use gridlines to aligne conent.
+
+    White Space, the empty space around conent, seperating conent; spacing things out creates structure and gives impression of expensive
+
+    Design for your audiance, think about who you are targeting-demographics
+        
+
+-->
+
+<!--                           User Experience
+    Simplicity- Always try to make things more user friendly instead of complex.
+    
+    Consistancy- be consistant in design throughout the user experience and navigation of website.
+
+    Patterns- Reading patterns like the zet Z pattern or F-layout pattern.
+
+    All platform dessign- Have a website that's rendered and scalled to diffrent device platforms, Rearange conent to be scaled proportionatly to platform.
+
+    Avoid using Dark Patterns- patterns based on psychology and manipulation to get users to perform a task beneficial to you but not the user, therefor creating a bad user experience.
+    example: hiding important options that a user might not necessarily want.
+    
+
+
+-->
